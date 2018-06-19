@@ -1,7 +1,7 @@
 
 <p style="font-size:36px;text-align:center"> <b>Seattle Rain Predictions</b> </p>
 
-<h1>1. Description
+<h1>1. Description </h1>
 
 Besides coffee, grunge and technology companies, one of the things that Seattle is most famous for is how often it rains. This dataset contains complete records of daily rainfall patterns from January 1st, 1948 to December 12, 2017.
 
@@ -18,7 +18,7 @@ Besides coffee, grunge and technology companies, one of the things that Seattle 
 <p>https://www.kaggle.com/rtatman/did-it-rain-in-seattle-19482017 </p>
 <p>This data was collected at the Seattle-Tacoma International Airport.</p>
 
-<h1>3. Problem Statement
+<h1>3. Problem Statement </h1>
 
 Based on given data set predict whether if there was rain observed on a day or not.
 
@@ -496,7 +496,7 @@ Dividing the entire datasets into train and test data.We would use 70% of the en
 X_train, X_test, y_train, y_test = train_test_split(sd_data, Y, test_size=0.3, random_state=42)
 ```
 
-<h1> 4. Machine Learning Model 
+<h1> 4. Machine Learning Model </h1>
 
 We would be using Logistic Regression as our model for training the data.
 
